@@ -14,4 +14,10 @@
 
 ## Pasos a pasos ftp
  - Lo primero que necesitamos es tener un servidor DNS que usaremos de DNS-Paso-a-Paso
- - lo siguiente es crear en el vagrantfile otro servidor con los datos que queremos que tenga el servidor ftp otra ip diferente y un hostname diferente, y un bootstrap de aprovisionamiento difernte.
+ - lo siguiente es crear en el vagrantfile otro servidor con los datos que queremos que tenga el servidor ftp otra ip diferente y un hostname diferente, y un bootstrap de aprovisionamiento diferente.
+ - iniciamos un vagrant up dns para levantar el servidor de dns y comprobaremos que el bootstrap esta bien y que nuestra maquina dns este perfecta.
+    - Hacemos un systemctl status bind9 para ver si esta activo y esta funcionando.
+    ![Status Bind9](doc/assets/img/StatusBind9.png)
+    - Lo siguiente es comprobar que funciona con dig.
+    ![Comprobacion directa](doc/assets/img/ComprobacionNS.png)
+    ![Comprobacion inversa](doc/assets/img/ComprobacionInversa.png)

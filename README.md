@@ -82,4 +82,23 @@
    -tengo un error de escritura y al reiniciar el servicio me salia fallado y es en la linea de allow_anon que lo siguiente es en minuscula, tengo Ssl y es ssl, cambiado esto ya sale bien.
  ![Reinicio y comprobacion del status ](doc/assets/img/ComprobacionSegura.png) 
 
+- Comprobamos todo con luis con una conexion segura 
+   - Al primer intento no me ha funcionado, he ido archivos y gestor de sitio, luego he creado un nuevo sitio metiendole los parametros de que quiero que sea segura.
+   ![Crear sitio seguro](doc/assets/img/CrearLuisSeguro.png)
+   - Con esto ya se inicia. 
+   ![Comprobacion de que luis entra](doc/assets/img/LuisEntraSeguro.png) 
+- Comrpobamos el candado de abajo un poco a la derecha que este cerrado significa que esta segura y tambien comprobamos que realiza la conexión y acepta el certificado del servidor
+![Comprobacion de que entra y candado](doc/assets/img/comprobacion+candado.png) 
+- Comprobamos que podemos descargar y subir archivos
+![Comprobacion de que se descarga y subimos archivos](doc/assets/img/SubirDescargarArchivos.png) 
+- Ahora vamos a crear un nuevo sitio pero para entrar con un anonimo.
+![Creacion del sitio anonimo](doc/assets/img/SitioAnonimo.png) 
+- Le damos a conectar
+![Anonimo no deja](doc/assets/img/AnonimoNodeja.png) 
+- Por ultimo comprobamos otra conexion, lo voy a hacer con maria que no esta enjaulada.
+![Sitio de maria](doc/assets/img/SitioMariaSeguro.png) 
+![Vemos si estamos dentro de maria y tenemos acceso a todo](doc/assets/img/entramosMariaSeguro.png) 
+
+
+
  

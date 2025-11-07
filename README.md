@@ -21,3 +21,14 @@
     - Lo siguiente es comprobar que funciona con dig.
     ![Comprobacion directa](doc/assets/img/ComprobacionNS.png)
     ![Comprobacion inversa](doc/assets/img/ComprobacionInversa.png)
+
+## ftp grafico
+ - Descargamos Filezilla cliente.
+ ![Filezilla](doc/assets/img/filezilla.png)
+ -Cramos una carpeta con un txt con datos para usarlo como ejemplo.
+ ![Capeta prueba con archivo datos](doc/assets/img/prueba-datos.png)
+ -Nos conectamos a ftp.cica.es y nos descargamos a nuestra carpeta el archivo que es /pub/check
+ ![Conexion a cica](doc/assets/img/ConexionCica.png)
+ ![Descarga Check](doc/assets/img/Descargacheck.png)
+ - Para comprobarlo en el buscador de archivos, o en filezilla en la parte nuestra le damos click derecho y abrir y nos sale nuetra carpeta le he dado a abrir al archivo y bloc de notas.
+ ![Descarga Check](doc/assets/img/CheckDatos.png)

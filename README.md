@@ -71,3 +71,15 @@
     ![Filezilla Maria](doc/assets/img/filezillaMaria.png)
     -Comprobamos con luis
     ![Filezilla Luis](doc/assets/img/filezillaLuis.png)
+
+## VSFTPD Seguro Linux
+ - Tenemos que crear un par de claves privadas y publicas para la privada creare un directorio privado para el root y no pueda acceder nadie y luego creare las claves
+ ![Directorio privado](doc/assets/img/directorioPrivado.png)
+   - creamos par de claves
+ ![Par de claves](doc/assets/img/ParClaves.png)
+ - Configuramos el archivo vstfpd.conf con los nuevos parametros para la conexion segura
+ ![Configuracion de seguridad en el archivo vstfpd.conf ](doc/assets/img/SeguraConfiguracionArchivo.png) 
+   -tengo un error de escritura y al reiniciar el servicio me salia fallado y es en la linea de allow_anon que lo siguiente es en minuscula, tengo Ssl y es ssl, cambiado esto ya sale bien.
+ ![Reinicio y comprobacion del status ](doc/assets/img/ComprobacionSegura.png) 
+
+ 

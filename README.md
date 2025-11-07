@@ -58,7 +58,16 @@
  - Creamos ficheros de prueba 
     - Lo comprobamos que se hayan creado
  ![Crecion archivos y comprobamos](doc/assets/img/CreacionFicheros.png)
- - Por ultimo configuramos el archivo que anteriormente se hizo una copia de seguridad para ahora poder modificar
+ - Por ultimo configuramos el archivo que anteriormente se hizo una copia de seguridad para ahora poder modificar que lo que hace es darle permisos o quitarle permisos a los usuarios y poner resrticciones generales 
     - Tenemos que crear un archivo con el user de maria por que esta no estara enjaulado (nano /etc/vsftpd.chroot_list y ponemos maria)
     ![Excepcion maria de jaula](doc/assets/img/ExcepcionMaria.png)
-    
+    - Modificamos el archivo de configuracion de vsftpd
+    [Primera parte archivo](doc/assets/img/PrimeraParteArchivoConf.png)
+    [Segunda parte archivo](doc/assets/img/SegundaParteArchivoConf.png) <!-- Solo añade la ultima linea por que no entra en la captura  -->
+    - Vemos desde un equipo si podemos acceder, desde mi equipo fuera de las maquinas virtuales voy a intntar acceder mediante cmd
+        - Vemos que si no tengo usuario creado da error y te mete en anonimo y no tienes permisos de crear y si te sabes alguna cuenta puedes acceder con esa cuenta y contraseña
+    [Prueba cmd](doc/assets/img/PruebaMetermeCMD.png)
+    - Comprobamos ahora con maria y vemos si no estamos enjaulados lo miramos desde filezilla
+    [Filezilla Maria](doc/assets/img/filezillaMaria.png)
+    -Comprobamos con luis
+    [Filezilla Luis](doc/assets/img/filezillaLuis.png)

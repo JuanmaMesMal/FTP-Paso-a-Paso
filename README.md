@@ -55,4 +55,10 @@
  ![Creacion Luis](doc/assets/img/CreacionLuis.png)
  ![Creacion Maria](doc/assets/img/CreacionMaria.png)
  ![Creacion Miguel](doc/assets/img/CreacionMiguel.png)
-
+ - Creamos ficheros de prueba 
+    - Lo comprobamos que se hayan creado
+ ![Crecion archivos y comprobamos](doc/assets/img/CreacionFicheros.png)
+ - Por ultimo configuramos el archivo que anteriormente se hizo una copia de seguridad para ahora poder modificar
+    - Tenemos que crear un archivo con el user de maria por que esta no estara enjaulado (nano /etc/vsftpd.chroot_list y ponemos maria)
+    ![Excepcion maria de jaula](doc/assets/img/ExcepcionMaria.png)
+    

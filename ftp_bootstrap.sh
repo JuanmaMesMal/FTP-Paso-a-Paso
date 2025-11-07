@@ -50,4 +50,4 @@ echo "Reiniciando servicio vsftpd"
 systemctl restart vsftpd
 systemctl enable vsftp
 
-echo "✅ Servidor FTP seguro (FTPS) configurado y listo para usar."
+echo "Servidor FTP seguro (FTPS) configurado y listo para usar."

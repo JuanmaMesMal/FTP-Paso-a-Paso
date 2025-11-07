@@ -22,7 +22,7 @@
     ![Comprobacion directa](doc/assets/img/ComprobacionNS.png)
     ![Comprobacion inversa](doc/assets/img/ComprobacionInversa.png)
 
-### ftp grafico
+## ftp grafico
  - Descargamos Filezilla cliente.
  ![Filezilla](doc/assets/img/filezilla.png)
  -Cramos una carpeta con un txt con datos para usarlo como ejemplo.
@@ -34,3 +34,22 @@
  ![Comprobar check](doc/assets/img/CheckDatos.png)
  - Y desde el cliente si intentamos subir nuestro archivo no nos deja por que no tenemos permisos
   ![Subir nuestros datos ](doc/assets/img/DatosSinpermiso.png)
+
+## VSFTPD Linux
+ - Instalamos VSFTPD (apt install -y vsftpd)
+ - Comprobamos que se ha instalado correctamente usamos para encontrarlo (grep ftp /etc/passwd)
+ ![Comprobacion instalación](doc/assets/img/ComprobacionVSFTPD.png)
+ - Comprobamos que se ha creado el directorio /srv/ftp y que el usuario es root y pertenece al grupo ftp
+ ![Comprobacion directorio srv/ftp y usuario root y grupo ftp](doc/assets/img/RootFTP.png)
+ - Comprobamos que usuarios no pueden acceder al servicio. (etc/ftpusers)
+ ![Comprobacion Usuarios no pueden acceder](doc/assets/img/UsersDisallowed.png)
+ -Ahora comprobamos que el servicio esta activo y funcionando
+ ![Status VSFTPD](doc/assets/img/StatusVSFTPD.png)
+ - Comprobacion que esta escuchando por el puerto 21
+ <!-- Use al principio netstat -tln que pone en el pdf pero me sale command not found -->
+ ![Status VSFTPD](doc/assets/img/Escucha21.png)
+ - Lo siguiente es crear una copia de seguridad del archivo   pero en mi caso voy a hacer un cp y mandarlo fuera de la maquina a /vagrant/configFTP
+ ![Status VSFTPD](doc/assets/img/RutaCopia.png)
+ ![Status VSFTPD](doc/assets/img/copia.png)
+
+

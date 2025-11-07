@@ -22,7 +22,7 @@
     ![Comprobacion directa](doc/assets/img/ComprobacionNS.png)
     ![Comprobacion inversa](doc/assets/img/ComprobacionInversa.png)
 
-## ftp grafico
+### ftp grafico
  - Descargamos Filezilla cliente.
  ![Filezilla](doc/assets/img/filezilla.png)
  -Cramos una carpeta con un txt con datos para usarlo como ejemplo.
@@ -31,4 +31,6 @@
  ![Conexion a cica](doc/assets/img/ConexionCica.png)
  ![Descarga Check](doc/assets/img/Descargacheck.png)
  - Para comprobarlo en el buscador de archivos, o en filezilla en la parte nuestra le damos click derecho y abrir y nos sale nuetra carpeta le he dado a abrir al archivo y bloc de notas.
- ![Descarga Check](doc/assets/img/CheckDatos.png)
+ ![Comprobar check](doc/assets/img/CheckDatos.png)
+ - Y desde el cliente si intentamos subir nuestro archivo no nos deja por que no tenemos permisos
+  ![Subir nuestros datos ](doc/assets/img/DatosSinpermiso.png)

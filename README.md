@@ -51,5 +51,8 @@
  - Lo siguiente es crear una copia de seguridad del archivo   pero en mi caso voy a hacer un cp y mandarlo fuera de la maquina a /vagrant/configFTP
  ![Status VSFTPD](doc/assets/img/RutaCopia.png)
  ![Status VSFTPD](doc/assets/img/copia.png)
-
+ - Creamos usuarios (useradd -m 'nombre')  <!-- la m se utiliza para crear un directorio del usuario-->
+ ![Creacion Luis](doc/assets/img/CreacionLuis.png)
+ ![Creacion Maria](doc/assets/img/CreacionMaria.png)
+ ![Creacion Miguel](doc/assets/img/CreacionMiguel.png)
 

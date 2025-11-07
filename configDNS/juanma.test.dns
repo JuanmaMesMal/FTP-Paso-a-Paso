@@ -1,0 +1,13 @@
+;
+; Zona directa juanma.test
+;
+$TTL    86400
+@   IN  SOA debian.juanma.test. admin.juanma.test. (
+        2025101301  ; Serial (AñoMesDíaVersión)
+        3600        ; Refresh
+        1800        ; Retry
+        604800      ; Expire
+        86400 )     ; Negative Cache TTL
+;
+@       IN  NS  debian.juanma.test.
+debian  IN  A   192.168.56.10
